@@ -1,7 +1,7 @@
-const addCount = document.querySelector('#addCount');
-const lowerCount = document.querySelector('#lowerCount');
-const result = document.querySelector('#result');
-var count = 0
+const addCount = document.querySelector('#add');
+const lowerCount = document.querySelector('#low');
+const result = document.querySelector('#show-number');
+let count = 0
 addCount.addEventListener('click', () => {
 
   count++
@@ -9,7 +9,7 @@ addCount.addEventListener('click', () => {
   if (count >= 1) {
     result.style.color = 'green'
   }
-  if (count === 0) {
+  else if (count === 0) {
     result.style.color = '#333333'
   }
 
@@ -18,11 +18,11 @@ addCount.addEventListener('click', () => {
 lowerCount.addEventListener('click', () => {
   count--
   result.innerHTML = count
-  if (count < 1) {
+  if (count < 0) {
     result.style.color = 'red'
   }
 
-  if (count === 0) {
+  else if (count === 0) {
     result.style.color = '#333333'
   }
 })
