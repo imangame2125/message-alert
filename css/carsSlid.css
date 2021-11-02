@@ -1,0 +1,71 @@
+.container{
+  display: flex;
+  height:calc(900px);
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid #3e92cc;
+  flex-basis: 40%;
+  height: 750px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px solid lightblue;
+}
+
+.image-container{
+ position: relative;
+ height: 100%;
+ 
+  
+  
+}
+
+.img{
+  /* background: url('https://js-beginners.github.io/background-image-slider-project/img/contBcg-0.jpeg') center/cover fixed no-repeat; */
+  height: 100%;
+  width: 950px;
+}
+
+
+.small-size{
+height: 600px;
+
+}
+
+.prev, .next{
+  position: absolute;
+  background-color: #3e92cc;
+  color: white;
+  
+}
+
+.prev{
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.next{
+  right: 0;
+  top: 50%;
+  transform: translate(50%,-50%);
+}
+
+
+
+
+
+#left{
+  padding: 15px;
+  
+}
+
+#right{
+  padding: 15px;
+}
+
+

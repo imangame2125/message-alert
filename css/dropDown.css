@@ -1,0 +1,37 @@
+.container{
+  position: relative;
+  display: inline-block;
+}
+
+.drop{
+  display: none;
+  position: absolute;
+
+}
+
+/* .container:hover .drop{
+  display: block;
+} */
+
+.drop p{
+  border: 1px solid silver;
+  width: 200px;
+  height: auto;
+  
+}
+
+/* .drop :nth-child(1){
+  background-color: green;
+}
+.drop :nth-child(2){
+  background-color: rgb(73, 51, 9);
+}
+.drop :nth-child(3){
+  background-color: rgb(36, 24, 197);
+}
+.drop :nth-child(4){
+  background-color: rgb(212, 18, 18);
+}
+.drop :nth-child(5){
+  background-color: rgb(143, 109, 109);
+} */
