@@ -61,7 +61,7 @@ padding-top: 35px;
 }
 
 #next:hover{
-  box-shadow: inset 250px 0 0 0 #2e0f52;
+  box-shadow: inset 250px 0 0 0 #116b25;
   cursor: pointer;
   color: #ccc4be;
 }
@@ -73,12 +73,20 @@ padding-top: 35px;
   padding: 10px;
   width: 250px;
   height: 80px;
+  margin-left: 75px;
   border: none;
   color: white;
-  box-shadow: 0 0 0 0 #167705;
-  transition: ease-out 0.3s;
-  font-size: 1.5em;
+  background-color: #cf1a38;
+  box-shadow: inset 0 0 0 0 #faea0c;
+  transition: ease-in-out 0.9s;
+  font-size: 1.9em;
   outline: none;
   
+}
 
+
+#prev:hover{
+  box-shadow: inset 250px 0 0 0  #ff01dd;
+  cursor: pointer;
+  color: #ccc4be;
 }
