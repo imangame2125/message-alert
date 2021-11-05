@@ -1,0 +1,207 @@
+.container{
+  display: flex;
+  height: 100%
+
+
+ 
+}
+
+.image-background{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('https://js-beginners.github.io/testimonial-project/img/questionBcg.jpeg')center/cover no-repeat fixed;
+  height: calc(999px - 79px);
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#client{
+  color: #f15025;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+
+
+
+#testimonial{
+  color: white;
+  font-size: 2.5rem;
+
+}
+
+
+
+
+
+.middle-page{
+  width: 600px;
+  height: 650px;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+
+
+
+.text-up-middle{
+  text-align: center;
+  height: 200px;
+}
+
+
+
+
+
+.image-down{
+  position: relative;
+  text-align: center;
+
+}
+
+
+
+
+
+#customerImg{
+  background:url('https://js-beginners.github.io/testimonial-project/img/customer-0.jpg')cover/fixed/center/no-repeat;
+  border-radius: 50%;
+  width: 145px;
+  position: absolute;
+  bottom: -37px ;
+  right: 211px;
+  
+  
+}
+
+
+
+
+
+.middle-down{
+  border: 1px solid silver;
+  width: 100%;
+  position: relative;
+  padding: 0 20px;
+  padding-bottom: 20px;
+ 
+}
+
+
+
+
+
+#customerName{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 60px;
+  padding-left: 31px
+
+}
+
+
+
+
+#customerText{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#next,#prev{
+  color: #f15025;
+  border: 1px solid #f15025;
+  position: absolute;
+  width:40px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+
+
+#next{
+  top: 50%;
+  right: 0;
+  transform: translate(120%,-50%);
+
+}
+
+
+
+
+#prev{
+  top: 50%;
+  left: 0;
+  transform: translate(-120%,-50%);
+
+}
+
+
+
+
+.text-down{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+.stars-icons{
+  display: flex;
+  justify-content: center;
+  color: #f15025;
+  padding: 2px;
+
+
+}
+
+
+
+#star-half-color{
+  width: 11px;
+  position: absolute;
+  overflow: hidden;
+
+}
+ 
+
+
+
+
+.text-down-stars{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+.qote-icon{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
