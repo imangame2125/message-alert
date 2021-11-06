@@ -3,13 +3,13 @@ const left = document.querySelector('#left');
 const imageShow = document.querySelector('.img')
 const images = ['https://js-beginners.github.io/background-image-slider-project/img/contBcg-0.jpeg', 'https://js-beginners.github.io/background-image-slider-project/img/contBcg-1.jpeg', 'https://js-beginners.github.io/background-image-slider-project/img/contBcg-2.jpeg', 'https://js-beginners.github.io/background-image-slider-project/img/contBcg-3.jpeg', 'https://js-beginners.github.io/background-image-slider-project/img/contBcg-4.jpeg'];
 let index = 0;
-imageShow.src = images[index];
+imageShow.style['background-image'] =`url(${images[index]})`; 
 right.addEventListener('click', () => {
   index++
   if (index > images.length - 1) {
     index = 0
   }
-  imageShow.src = images[index]
+  imageShow.style['background-image'] = `url(${images[index]})`; 
 
 })
 
@@ -19,6 +19,5 @@ left.addEventListener('click', () => {
   if (index < 0) {
     index = images.length - 1
   }
-  imageShow.src = images[index]
-
+  imageShow.style['background-image'] = `url(${images[index]})`;
 })
