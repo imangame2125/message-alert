@@ -2,8 +2,11 @@
   width: 100%;
   /* height: calc(800px - 200px); */
   /* background-color: #cfcfcf; */
-  border-bottom: 40px solid #cd7f32;
-  border-top: solid 40px #ffa600;
+  border-bottom: 40px solid 	#9b9b9b;
+  /* height: 920px; */
+  border-top: 40px solid 	#808080;
+  padding: 5px;
+
 }
 
 .home {
