@@ -3,6 +3,8 @@ const mathInput = document.querySelector('#mathInput')
 const lawInput = document.querySelector('#lawInput')
 const resultAverage = document.querySelector('#result-average');
 const result = document.querySelector('#result')
+const stars = document.querySelectorAll('.stars span')
+console.log(stars);
 
 function average(a, b) {
   let numbers = (+a + +b) / 2
