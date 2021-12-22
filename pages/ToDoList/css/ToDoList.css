@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+
+}
+
+.container-input-btn input {
+  width: 400px;
+  margin: 20px;
+}
+
+.container-input-btn button {
+  width: 50px;
+  cursor: pointer;
+}
+
+.myTask {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.myTask {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+li{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+ 
+ 
+}
+
+li i{
+  cursor: pointer;
+}
+
+li.editing {
+  display: none;
+}
